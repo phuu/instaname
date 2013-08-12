@@ -1,0 +1,14 @@
+{
+  "name": "instaname",
+  "version": "0.0.0",
+  "description": "Instant name generation.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {},
+  "bin": {
+    "instaname": "bin/instaname"
+  },
+  "repository": "",
+  "author": "Tom Ashworth <tom@phuu.net>",
+  "license": "MIT"
+}
