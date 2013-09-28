@@ -3,7 +3,7 @@
 var adj = [
   'nefarious', 'blue', 'yellow', 'orange', 'green', 'fushia', 'flowing',
   'quick', 'slow', 'ostentatious', 'hyperactive', 'massive', 'hipster',
-  'autumn', 'hidden', 'bitter', 'misty', 'silent', 'empty', 'dry', 'dark',
+  'autumnal', 'hidden', 'bitter', 'misty', 'silent', 'empty', 'dry', 'dark',
   'summer', 'icy', 'delicate', 'quiet', 'white', 'cool', 'spring', 'winter',
   'patient', 'twilight', 'dawn', 'crimson', 'wispy', 'weathered', 'blue',
   'billowing', 'broken', 'cold', 'damp', 'falling', 'frosted', 'green',
@@ -18,7 +18,7 @@ var adj = [
 
 var noun = [
   'mountain', 'ocean', 'river', 'hill', 'grass', 'beach', 'narwhal', 'nymph',
-  'shark', 'squid', 'octopus', 'mist', 'storm',
+  'shark', 'squid', 'octopus', 'mist', 'storm', 'winter',
   'waterfall', 'river', 'breeze', 'moon', 'rain', 'wind', 'sea', 'morning',
   'snow', 'lake', 'sunset', 'pine', 'shadow', 'leaf', 'dawn', 'glitter',
   'forest', 'hill', 'cloud', 'meadow', 'sun', 'glade', 'bird', 'brook',
