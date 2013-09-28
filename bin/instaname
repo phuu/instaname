@@ -12,7 +12,8 @@ var adj = [
   'wandering', 'withered', 'wild', 'black', 'young', 'holy', 'solitary',
   'fragrant', 'aged', 'snowy', 'proud', 'floral', 'restless', 'divine',
   'polished', 'ancient', 'purple', 'lively', 'nameless', 'baroque',
-  'suffering', 'stifling', 'smothering', 'shapeless', 'formless', 'gathering'
+  'suffering', 'stifling', 'smothering', 'shapeless', 'formless', 'gathering',
+  'sensuous', 'stuttering', 'flickering'
 ];
 
 var noun = [
@@ -29,16 +30,20 @@ var noun = [
   'frog', 'smoke', 'star', 'branch', 'lavender', 'shade', 'ninja', 'samurai'
 ];
 
+var ri = function (arr) {
+  return Math.floor(Math.random() * arr.length);
+};
+
 var generate = module.exports = function (adjs) {
   adjs = adjs || 1;
   var prefix = '',
       copyAdj = [].slice.call(adj);
   while (adjs-- && copyAdj.length) {
-    var i = Math.floor(Math.random() * copyAdj.length);
+    var i = ri(copyAdj);
     prefix += copyAdj[i] + '-';
     copyAdj.splice(i, 1);
   }
-  return prefix + noun[Math.floor(Math.random() * noun.length)];
+  return prefix + noun[ri(noun)];
 };
 
 if (require.main === module) {
