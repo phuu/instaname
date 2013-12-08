@@ -13,7 +13,7 @@ var adj = [
   'fragrant', 'aged', 'snowy', 'proud', 'floral', 'restless', 'divine',
   'polished', 'ancient', 'purple', 'lively', 'nameless', 'baroque',
   'suffering', 'stifling', 'smothering', 'shapeless', 'formless', 'gathering',
-  'sensuous', 'stuttering', 'flickering'
+  'sensuous', 'stuttering', 'flickering', 'unstoppable', 'spectacular'
 ];
 
 var noun = [
@@ -27,7 +27,8 @@ var noun = [
   'snowflake', 'silence', 'sound', 'sky', 'shape', 'surf', 'thunder',
   'violet', 'water', 'wildflower', 'wave', 'water', 'resonance', 'sun',
   'wood', 'dream', 'cherry', 'tree', 'fog', 'frost', 'voice', 'paper',
-  'frog', 'smoke', 'star', 'branch', 'lavender', 'shade', 'ninja', 'samurai'
+  'frog', 'smoke', 'star', 'branch', 'lavender', 'shade', 'ninja', 'samurai',
+  'fury', 'biscuit'
 ];
 
 var ri = function (arr) {
